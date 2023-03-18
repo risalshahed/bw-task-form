@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Profile</title>
+</head>
+<body class="m-8">
+    <!-- Page Heading -->
+    <h1 class="text-4xl font-bold pb-5">
+        Your Profile
+    </h1>
+
+    <!-- Form -->
+    <form action="">
+        <fieldset class="border border-solid border-black w-1/2 p-6">
+            <h2 class="font-bold text-lg mx-5 my-10">
+                Personal Data
+            </h2>
+            <!-- Input Fields -->
+            <div class="flex w-[90%] m-5">
+                <!-- First name -->
+                <div class="relative w-full">
+                    <label for="fname" class="absolute bg-white -top-3 left-6 px-1.5 z-10">First name</label>
+                    <input
+                        class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                    />
+                </div>
+                <!-- Last name -->
+                <div class="relative ml-5 w-full">
+                    <label for="lname" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Last name</label>
+                    <input
+                        class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                        type="text"
+                        id="lname"
+                        name="lname"
+                    />
+                </div>
+            </div>
+            <!-- Email -->
+            <div class="relative m-5 w-[90%]">
+                <label for="email" class="absolute bg-white -top-3 left-6 px-1.5 z-10">E-mail</label>
+                <input
+                    class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                    type="email"
+                    id="email"
+                    name="email"
+                />
+                <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-3 right-3">
+                    <path d="M12.75 7H11.875V5.25C11.875 2.835 9.915 0.875 7.5 0.875C5.085 0.875 3.125 2.835 3.125 5.25V7H2.25C1.2875 7 0.5 7.7875 0.5 8.75V17.5C0.5 18.4625 1.2875 19.25 2.25 19.25H12.75C13.7125 19.25 14.5 18.4625 14.5 17.5V8.75C14.5 7.7875 13.7125 7 12.75 7ZM4.875 5.25C4.875 3.7975 6.0475 2.625 7.5 2.625C8.9525 2.625 10.125 3.7975 10.125 5.25V7H4.875V5.25ZM12.75 17.5H2.25V8.75H12.75V17.5ZM7.5 14.875C8.4625 14.875 9.25 14.0875 9.25 13.125C9.25 12.1625 8.4625 11.375 7.5 11.375C6.5375 11.375 5.75 12.1625 5.75 13.125C5.75 14.0875 6.5375 14.875 7.5 14.875Z" fill="black"/>
+                </svg>
+
+            </div>
+            <!-- Size -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="size" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Preferred size</label>
+                <select name="size" id="size" class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full">
+                    <option value="M">M</option>
+                    <option value="S">S</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="2XL">2XL</option>
+                    <option value="3XL">3XL</option>
+                </select>
+            </div>
+            <!-- Country -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="country" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Country</label>
+                <select name="country" id="country" class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full">
+                    <option value="Romania">Romania</option>
+                </select>
+            </div>
+            <!-- City -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="city" class="absolute bg-white -top-3 left-6 px-1.5 z-10">City</label>
+                <input
+                    class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                    type="text"
+                    id="city"
+                    name="city"
+                />
+            </div>
+            <!-- Address -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="address" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Address</label>
+                <input
+                    class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                    type="text"
+                    id="address"
+                    name="address"
+                />
+            </div>
+            <!-- Zip Code -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="zip" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Zip Code</label>
+                <input
+                    class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                    type="number"
+                    id="zip"
+                    name="zip"
+                />
+            </div>
+            <!-- Phone Number -->
+            <div class="relative flex w-[90%] m-5">
+                <label for="phone" class="absolute bg-white -top-3 left-6 px-1.5 z-10">Phone Number (Optional)</label>
+                <input
+                    class="border rounded border-gray-300 py-2 px-8 relative text-gray-700 w-full"
+                    type="number"
+                    id="phone"
+                    name="phone"
+                />
+            </div>
+            <!-- Submit -->
+            <div class="relative w-[90%] m-5">
+                <input
+                    class="bg-black text-white w-full py-3"
+                    type="submit"
+                    value="Save changes"
+                />
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
